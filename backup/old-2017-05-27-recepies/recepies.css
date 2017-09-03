@@ -1,0 +1,135 @@
+/*--- GLOBAL STYLES ---*/
+html {
+	margin:			0;
+	padding:		0;
+}
+
+body {
+	background: none repeat scroll 0 0 #F2F2F2;
+	color: #333333;
+	font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+
+
+#test {
+	visibility: hidden;
+}
+
+#header {
+	z-index: 10;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:25px 50px 25px 50px; 
+	width: 980px;
+	font-family: Textile, cursive;
+	font-weight: 500;
+	font-stretch: ultra-expanded;
+	font-size: 28px;
+}
+
+#main {
+	margin: auto;    
+	width: 980px;
+	padding:25px 50px 25px 50px;
+}
+
+#catalog {
+	margin: 0px 0px 50px 0px;
+	width: 980px;
+	height: 160px;
+	position: relative;
+	background: white;
+	border-radius: 4px 4px 4px 4px;
+	padding: 4px 0px;
+}
+
+
+.pb-pageindicator {
+	background: -moz-linear-gradient(center bottom , #DFDFDF 0%, #F2F2F2 66%, #F2F2F2 90%, #E6E6E6 93%, #BEBEBE 96%, #969696 100%) repeat scroll 0 0 transparent;
+	border-bottom: 1px solid #EBEBEB;
+	height: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto 15px;
+}
+
+#recepie {
+	margin: 0 auto 18px;
+	padding: 60px 50px 32px 50px;
+	width: 880px;
+	height: 880px;
+	color: #333333;
+	border-radius: 4px 4px 4px 4px;
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-color: #E5E5E5 #DBDBDB #D2D2D2;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+lu.quantities {
+	margin: 5px 5px 5px 5px; 
+}
+
+lu.ingredient{
+	margin: 5px 5px 5px 5px; 
+}
+
+ul.quantities{
+	width: 840px;
+	height: 50px;
+	margin: 20px;
+	display: inline-block;
+}
+
+lu.quantities{
+	display: inline-block;
+	margin: 0px 40px;
+	width: 200px;
+	height: 50px;
+	float: left;
+}
+
+input.quantity{
+	margin: 0px 10px;
+	font-size: large;
+	text-align: center;
+	width: 180px;
+}
+
+p.lbl{
+	text-align: center;
+	margin: 0px;
+}
+
+ul.ingredients{
+	width: 840px;
+	height: auto;
+	margin: 20px;
+	display: inline-block;
+}
+
+lu.ingredient{
+	display: inline-block;
+	margin: 20px 100px;
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+
+span.ingredient{
+	margin: 0px 5px 0px 0px;
+	width: 130px;
+        height: 150px;
+	float: left;
+	display: inline-block;
+}
+
+input.weight{
+	margin: 40px 0px 0px 5px;
+	width: 60px;
+        height: 50px;
+	float: right;
+	font-size: large;
+	text-align: center;	
+}

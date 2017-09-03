@@ -1,0 +1,54 @@
+#scroll-area {
+	/* margin: 0px 20px; */
+	/* width: 900px; */
+	width:  980px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	background: none repeat scroll 0 0 #F2F2F2;
+}
+
+#scroll-data {
+	height: 160px;
+	position: relative;
+	background: white;
+}
+
+#left, #right{
+	margin: 0 0 0 0;
+	width: 20px;
+	height: 160px;
+	display: inline-block;
+}
+
+#left {
+	/* background: -moz-linear-gradient(right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background-image: url('images/l-arrow.jpg');
+}
+
+#right {
+	/* background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background-image: url('images/r-arrow.jpg');
+}
+
+
+
+span.object{
+	margin: 5px 5px 0px 5px;
+	width: 130px;
+        height: 150px;
+	position:absolute;
+
+}
+
+span.selected{
+	-webkit-box-shadow: 0 0 10px rgb(0,0,0);
+	-moz-box-shadow: 0 0 10px rgb(0,0,0);
+	box-shadow: 0 0 10px rgb(0,0,0); 	
+}
+
+p.object{
+	text-align: center;
+	margin: 0px;
+}

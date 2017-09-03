@@ -1,0 +1,31 @@
+.cover-container {
+	height: 200px;
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.cover-item {
+	position: relative;
+	display: inline-block;
+	margin: 8px 30px;
+	border-top-right-radius: 4px;
+	height: 158px;
+	vertical-align: bottom;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.selected{
+	-webkit-box-shadow: 0 0 10px rgb(0,0,0);
+	-moz-box-shadow: 0 0 10px rgb(0,0,0);
+	box-shadow: 0 0 10px rgb(0,0,0);
+	border-radius: 10px;
+	background: #eeeeee; /* without a background or border applied you won't be able to see if its rounded */
+}
+
+p.object{
+	text-align: center;
+	margin: 0px;
+}

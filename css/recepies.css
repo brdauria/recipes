@@ -1,0 +1,43 @@
+/*--- GLOBAL STYLES ---*/
+
+
+#test {
+	visibility: hidden;
+}
+
+#quantities{
+	margin: 15px;
+}
+
+div.quantities{
+	padding: 5px;
+}
+
+input.quantity{
+	font-size: large;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+div.lbl{
+	padding: 5px;
+	text-align: center;
+}
+
+input.weight{
+	font-size: large;
+	text-align: center;
+	background: transparent;
+	border: none;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+div.picture{
+	padding: 10px;
+	background: white;
+}
+
+div.ingredient{
+	padding: 0;
+}
