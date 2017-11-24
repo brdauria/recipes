@@ -5,7 +5,7 @@
 <recepies>
 	<recipe>
 		<id>pizza-64</id>
-		<name>Pizza (64%)</name>
+		<name>Pizza</name>
 		<description>Pizza con farina Caputo - Con impastatrice</description>
 		<image>images/pizza.jpg</image>
 		<standard-qty>2</standard-qty>
@@ -74,11 +74,11 @@
 		<name>Calzoni</name>
 		<description>Calzoni fritti</description>
 		<image>images/calzone.jpg</image>
-		<standard-qty>5</standard-qty>
-		<weight-per-unit>110</weight-per-unit>
+		<standard-qty>6</standard-qty>
+		<weight-per-unit>90</weight-per-unit>
 		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
 		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0018</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.0036</percent></ingredient>
 		<ingredient storeid="sale"><percent>0.0167</percent></ingredient>
 		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
 	</recipe>
