@@ -14,7 +14,6 @@ div.quantities{
 }
 
 input.quantity{
-	font-size: large;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -25,7 +24,6 @@ div.lbl{
 }
 
 input.weight{
-	font-size: large;
 	text-align: center;
 	background: transparent;
 	border: none;
