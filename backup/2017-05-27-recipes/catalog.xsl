@@ -4,7 +4,7 @@
 <xsl:param name="message"></xsl:param>
 
 <xsl:template match="catalog">
-<select id="recepies"  onchange="update()">
+<select id="recipes"  onchange="update()">
       <xsl:for-each select="recipe">
         <xsl:element name="option">
         <xsl:attribute name="value">

@@ -1,33 +1,72 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Edited by XMLSpy® -->
 <catalog>	
-<default-recepie>pizza-64</default-recepie>
-<!-- Recepies -->
-<recepies>
+<default-recipe>pizza-64</default-recipe>
+<!-- Recipes -->
+<recipes>
 	<recipe>
 		<id>pizza-64</id>
-		<name>Pizza</name>
+		<name>Pizza-64%</name>
 		<description>Pizza con farina Caputo - Con impastatrice</description>
 		<image>images/pizza.jpg</image>
 		<standard-qty>2</standard-qty>
 		<weight-per-unit>240</weight-per-unit>
 		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
 		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0027</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0150</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.0018</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0167</percent></ingredient>
 		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+	</recipe>
+	<recipe>
+		<id>pizza-65</id>
+		<name>Pizza-65%</name>
+		<description>Pizza con farina Harimsa - Con impastatrice</description>
+		<image>images/pizza.jpg</image>
+		<standard-qty>2</standard-qty>
+		<weight-per-unit>240</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.3824</percent></ingredient>
+		<ingredient storeid="farina-harimsa-pizza"><percent>0.5884</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0167</percent></ingredient>
+		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+	</recipe>
+	<recipe>
+		<id>pizza-60</id>
+		<name>Pizza-60%</name>
+		<description>Pizza con farina Harimsa - A mano</description>
+		<image>images/pizza.jpg</image>
+		<standard-qty>2</standard-qty>
+		<weight-per-unit>240</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.3646</percent></ingredient>
+		<ingredient storeid="farina-harimsa-pizza"><percent>0.6104</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0125</percent></ingredient>
+		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+	</recipe>
+	<recipe>
+		<id>pizza-59</id>
+		<name>Pizza-59%</name>
+		<description>Pizza con mistura di farina Gallo - A mano</description>
+		<image>images/pizza.jpg</image>
+		<standard-qty>2</standard-qty>
+		<weight-per-unit>300</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.36</percent></ingredient>
+		<ingredient storeid="farina-gallo-trigo"><percent>0.0244</percent></ingredient>
+		<ingredient storeid="farina-gallo-reposteria"><percent>0.5853</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.0018</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.018</percent></ingredient>
+		<ingredient storeid="olio"><percent>0.01</percent></ingredient>
 	</recipe>
 	<recipe>
 		<id>calzoni</id>
 		<name>Calzoni</name>
 		<description>Calzoni fritti</description>
 		<image>images/calzone.jpg</image>
-		<standard-qty>6</standard-qty>
-		<weight-per-unit>90</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0036</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0167</percent></ingredient>
-		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+		<standard-qty>5</standard-qty>
+		<weight-per-unit>110</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.36</percent></ingredient>
+		<ingredient storeid="farina-gallo-reposteria"><percent>0.6097</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.0018</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0182</percent></ingredient>
+		<ingredient storeid="olio"><percent>0.0109</percent></ingredient>
 	</recipe>
 	<recipe>
 		<id>cornetti</id>
@@ -44,7 +83,39 @@
 		<ingredient storeid="sale"><percent>0.0086</percent></ingredient>
 		<ingredient storeid="burro"><percent>0.3125</percent></ingredient>
 	</recipe>
-</recepies>
+	<recipe>
+		<id>ricetta6</id>
+		<name>Ricetta-6</name>
+		<description>Ricetta-6</description>
+		<image>images/no_image.jpg</image>
+		<standard-qty>0</standard-qty>
+		<weight-per-unit>100</weight-per-unit>
+	</recipe>
+	<recipe>
+		<id>ricetta7</id>
+		<name>Ricetta-7</name>
+		<description>Ricetta-7</description>
+		<image>images/no_image.jpg</image>
+		<standard-qty>0</standard-qty>
+		<weight-per-unit>100</weight-per-unit>
+	</recipe>
+	<recipe>
+		<id>ricetta8</id>
+		<name>Ricetta-8</name>
+		<description>Ricetta-8</description>
+		<image>images/no_image.jpg</image>
+		<standard-qty>0</standard-qty>
+		<weight-per-unit>100</weight-per-unit>
+	</recipe>
+	<recipe>
+		<id>ricetta9</id>
+		<name>Ricetta-9</name>
+		<description>Ricetta-9</description>
+		<image>images/no_image.jpg</image>
+		<standard-qty>0</standard-qty>
+		<weight-per-unit>100</weight-per-unit>
+	</recipe>
+</recipes>
 <!-- Ingredients -->
 <store>
 	<product>

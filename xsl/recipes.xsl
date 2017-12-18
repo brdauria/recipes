@@ -7,7 +7,7 @@
     <xsl:variable name="ucletters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
 
     <xsl:template match="catalog">
-        <xsl:apply-templates select="recepies/recipe[id=$message]" mode="normal"/>
+        <xsl:apply-templates select="recipes/recipe[id=$message]" mode="normal"/>
     </xsl:template>
 
     <xsl:template match="recipe" mode="normal">

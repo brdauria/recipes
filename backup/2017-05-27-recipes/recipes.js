@@ -20,9 +20,9 @@ function allblue()
 
 function displayResult()
 {
-  selection = document.getElementById("recepies");
+  selection = document.getElementById("recipes");
   node = document.getElementById("catalog");
-  xml=loadXMLDoc("recepies.xml");
+  xml=loadXMLDoc("recipes.xml");
   xsl=loadXMLDoc("slide.xsl");
   // code for IE
   if (window.ActiveXObject)
@@ -53,23 +53,23 @@ function displayResult()
   update(scrollarea.getAttribute("default"));
 }
 
-function update(recepie)
+function update(recipe)
 {
-  if (recepie == ""){
-    selection = document.getElementById("recepies").value;
+  if (recipe == ""){
+    selection = document.getElementById("recipes").value;
   } else {
-    document.getElementById("recepies").value = recepie;
-    selection = recepie;
+    document.getElementById("recipes").value = recipe;
+    selection = recipe;
   }
   $("span.selected").removeClass("selected");
   $("#"+selection).addClass("selected"); 
   
-  node = document.getElementById("recepie");
+  node = document.getElementById("recipe");
   while (node.hasChildNodes()) {
     node.removeChild(node.lastChild);
   }
-  xml=loadXMLDoc("recepies.xml");
-  xsl=loadXMLDoc("recepie.xsl");
+  xml=loadXMLDoc("recipes.xml");
+  xsl=loadXMLDoc("recipe.xsl");
   // code for IE
   if (window.ActiveXObject)
     {
@@ -85,10 +85,10 @@ function update(recepie)
     resultDocument = xsltProcessor.transformToFragment(xml,document);
     node.appendChild(resultDocument);
     }
-  updateRecepie();
+  updateRecipe();
 }
 
-function updateRecepie()
+function updateRecipe()
 {
   weight = document.getElementById("weight");
   wpu = document.getElementById("wpu");

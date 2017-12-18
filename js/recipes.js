@@ -1,9 +1,9 @@
 var XSLslide;
 var urlXSLslide = "xsl/slide.xsl";
-var XSLrecepies;
-var urlXSLrecepies = "xsl/recepies.xsl";
-var XMLrecepies;
-var urlXMLrecepies = "recepies.xml";
+var XSLrecipes;
+var urlXSLrecipes = "xsl/recipes.xsl";
+var XMLrecipes;
+var urlXMLrecipes = "recipes.xml";
 
 function loadXMLDoc(dname) {
     if (window.XMLHttpRequest) {
@@ -22,23 +22,23 @@ function allblue() {
 }
 
 function displayResult() {
-    $.when($.ajax(urlXSLslide), $.ajax(urlXSLrecepies), $.ajax(urlXMLrecepies)).then(function (a1, a2, a3) {
+    $.when($.ajax(urlXSLslide), $.ajax(urlXSLrecipes), $.ajax(urlXMLrecipes)).then(function (a1, a2, a3) {
 
         XSLslide = a1[0];
-        XSLrecepies = a2[0];
-        XMLrecepies = a3[0];
+        XSLrecipes = a2[0];
+        XMLrecipes = a3[0];
 
         node = document.getElementById("catalog");
         // code for IE
         if (window.ActiveXObject) {
-            ex = XMLrecepies.transformNode(XSLslide);
+            ex = XMLrecipes.transformNode(XSLslide);
             node.innerHTML = ex;
         }
         // code for Mozilla, Firefox, Opera, etc.
         else if (document.implementation && document.implementation.createDocument) {
             xsltProcessor = new XSLTProcessor();
             xsltProcessor.importStylesheet(XSLslide);
-            resultDocument = xsltProcessor.transformToFragment(XMLrecepies, document);
+            resultDocument = xsltProcessor.transformToFragment(XMLrecipes, document);
             node.appendChild(resultDocument);
         }
 
@@ -48,40 +48,40 @@ function displayResult() {
     });
 }
 
-function update(recepie) {
-    if (recepie == "") {
-        selection = document.getElementById("recepies").value;
+function update(recipe) {
+    if (recipe == "") {
+        selection = document.getElementById("recipes").value;
     } else {
-        document.getElementById("recepies").value = recepie;
-        selection = recepie;
+        document.getElementById("recipes").value = recipe;
+        selection = recipe;
     }
 
     $(".selected").removeClass("selected");
     $("#" + selection).addClass("selected");
 
-    node = document.getElementById("recepie");
+    node = document.getElementById("recipe");
     while (node.hasChildNodes()) {
         node.removeChild(node.lastChild);
     }
 
     // code for IE
     if (window.ActiveXObject) {
-        ex = XMLrecepies.transformNode(XSLrecepies);
+        ex = XMLrecipes.transformNode(XSLrecipes);
         node.innerHTML = ex;
     }
     // code for Mozilla, Firefox, Opera, etc.
     else if (document.implementation && document.implementation.createDocument) {
         xsltProcessor = new XSLTProcessor();
-        xsltProcessor.importStylesheet(XSLrecepies);
+        xsltProcessor.importStylesheet(XSLrecipes);
         xsltProcessor.setParameter(null, "message", selection);
-        resultDocument = xsltProcessor.transformToFragment(XMLrecepies, document);
+        resultDocument = xsltProcessor.transformToFragment(XMLrecipes, document);
         node.appendChild(resultDocument);
     }
 
-    updateRecepie();
+    updateRecipe();
 }
 
-function updateRecepie() {
+function updateRecipe() {
     weight = document.getElementById("weight");
     wpu = document.getElementById("wpu");
     qty = document.getElementById("qty");

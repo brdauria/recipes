@@ -43,17 +43,7 @@ body {
 	padding: 4px 0px;
 }
 
-
-.pb-pageindicator {
-	background: -moz-linear-gradient(center bottom , #DFDFDF 0%, #F2F2F2 66%, #F2F2F2 90%, #E6E6E6 93%, #BEBEBE 96%, #969696 100%) repeat scroll 0 0 transparent;
-	border-bottom: 1px solid #EBEBEB;
-	height: 30px;
-	text-align: center;
-	width: 100%;
-	margin: 0px auto 15px;
-}
-
-#recepie {
+#recipe {
 	margin: 0 auto 18px;
 	padding: 60px 50px 32px 50px;
 	width: 880px;

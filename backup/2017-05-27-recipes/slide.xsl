@@ -4,23 +4,23 @@
       <xsl:param name="message"></xsl:param>
 
 <xsl:template match="catalog">
-      <input id="recepies" type="hidden" onchange="update()"></input>
+      <input id="recipes" type="hidden" onchange="update()"></input>
       <!-- <div id="left" onclick="toLeft()"></div> -->
       <xsl:element name="div">
 	    <xsl:attribute name="id">scroll-area</xsl:attribute>
-	    <xsl:attribute name="default"><xsl:value-of select="default-recepie"/></xsl:attribute>
+	    <xsl:attribute name="default"><xsl:value-of select="default-recipe"/></xsl:attribute>
 	    <xsl:element name="div">
 		  <xsl:attribute name="id">scroll-data</xsl:attribute>
 		  <xsl:variable name="datawidth">
 			   <xsl:choose>
-			      <xsl:when test="count(recepies/recipe)&lt;'7'">980</xsl:when>
+			      <xsl:when test="count(recipes/recipe)&lt;'7'">980</xsl:when>
 			      <xsl:otherwise>
-				 <xsl:value-of select="10 + 150 * count(recepies/recipe) "/>
+				 <xsl:value-of select="10 + 150 * count(recipes/recipe) "/>
 			      </xsl:otherwise>
 			   </xsl:choose>
 		  </xsl:variable>
 		  <xsl:attribute name="style">width: <xsl:value-of select="$datawidth"/>px</xsl:attribute>
-		  <xsl:for-each select="recepies/recipe">
+		  <xsl:for-each select="recipes/recipe">
 			<xsl:element name="span">
 			      <xsl:attribute name="id">
 				    <xsl:value-of select="id"/>
