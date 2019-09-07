@@ -16,6 +16,18 @@
 		<ingredient storeid="sale"><percent>0.0150</percent></ingredient>
 		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
 	</recipe>
+		<recipe>
+		<id>pizza-napoletana</id>
+		<name>Pizza Napoletana</name>
+		<description>Pizza corso Pizzaiolo per un giorno (Napoli)</description>
+		<image>images/napolitan-pizza-maker.jpg</image>
+		<standard-qty>5.5</standard-qty>
+		<weight-per-unit>250</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.36350418</percent></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><percent>0.617957107</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.000363504</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.018175209</percent></ingredient>
+	</recipe>
 	<recipe>
 		<id>calzoni</id>
 		<name>Calzoni</name>
