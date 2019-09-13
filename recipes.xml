@@ -3,6 +3,7 @@
 <default-recipe>pizza-64</default-recipe>
 <!-- Recipes -->
 <recipes>
+<!-- Coomented
 	<recipe>
 		<id>pizza-64</id>
 		<name>Pizza</name>
@@ -16,7 +17,20 @@
 		<ingredient storeid="sale"><percent>0.0150</percent></ingredient>
 		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
 	</recipe>
-		<recipe>
+-->
+	<recipe>
+		<id>pizza-senza-olio</id>
+		<name>Pizza</name>
+		<description>Pizza con farina Caputo - Con impastatrice</description>
+		<image>images/pizza.jpg</image>
+		<standard-qty>4.5</standard-qty>
+		<weight-per-unit>245</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.400</percent></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><percent>0.585</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.001</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0140</percent></ingredient>
+	</recipe>
+	<recipe>
 		<id>pizza-napoletana</id>
 		<name>Pizza Napoletana</name>
 		<description>Pizza corso Pizzaiolo per un giorno (Napoli)</description>
