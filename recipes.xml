@@ -43,6 +43,35 @@
 		<ingredient storeid="sale"><percent>0.018175209</percent></ingredient>
 	</recipe>
 	<recipe>
+		<id>pizza-in-teglia</id>
+		<name>Pizza in teglia</name>
+		<description>Pizza in teglia con alta lievitazione</description>
+		<image>images/pizza_in_teglia.jpg</image>
+		<standard-qty>1</standard-qty>
+		<weight-per-unit>700</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.4357142857</percent></ingredient><!--305g-->
+		<ingredient storeid="farina-caputo-rossa"><percent>0.5457142857</percent></ingredient><!--382g-->
+		<ingredient storeid="lievito-fresco"><percent>0.005</percent></ingredient><!--3.5g-->
+		<ingredient storeid="sale"><percent>0.01357142857</percent></ingredient><!--9.5g-->
+	</recipe>
+	<recipe>
+		<id>pizza-integrale-in-teglia</id>
+		<name>Pizza integrale</name>
+		<description>Pizza in teglia con alta lievitazione</description>
+		<image>images/pizza_integrale_in_teglia.jpg</image>
+		<standard-qty>1</standard-qty>
+		<weight-per-unit>700</weight-per-unit>
+		<!--biga-->
+		<ingredient storeid="farina-caputo-rossa"><percent>0.361663653</percent></ingredient><!--farina integrale (300W, 13-14gproteine)-->
+		<ingredient storeid="acqua"><percent>0.180831826</percent></ingredient>
+		<ingredient storeid="lievito-fresco"><percent>0.003616637</percent></ingredient>
+		<!--rinfresco-->
+		<ingredient storeid="farina-caputo-rossa"><percent>0.154998708</percent></ingredient><!--farina integrale (300W, 13-14gproteine)-->
+		<ingredient storeid="acqua"><percent>0.284164299</percent></ingredient>
+		<ingredient storeid="zucchero"><percent>0.001808318</percent></ingredient><!--malto d’orzo in polvere-->
+		<ingredient storeid="sale"><percent>0.012916559</percent></ingredient>
+	</recipe>
+	<recipe>
 		<id>calzoni</id>
 		<name>Calzoni</name>
 		<description>Calzoni fritti</description>
