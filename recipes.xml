@@ -77,7 +77,7 @@
 		<description>Calzoni fritti</description>
 		<image>images/calzone.jpg</image>
 		<standard-qty>6</standard-qty>
-		<weight-per-unit>90</weight-per-unit>
+		<weight-per-unit>80</weight-per-unit>
 		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
 		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
 		<ingredient storeid="lievito-fresco"><percent>0.0036</percent></ingredient>
