@@ -30,6 +30,18 @@
 		<ingredient storeid="lievito-fresco"><percent>0.001</percent></ingredient>
 		<ingredient storeid="sale"><percent>0.0140</percent></ingredient>
 	</recipe>
+		<recipe>
+		<id>pizza-con-lievito-madre</id>
+		<name>Pizza lievito madre</name>
+		<description>Pizza lievito madre</description>
+		<image>images/pizza-lievito-madre.jpg</image>
+		<standard-qty>4.5</standard-qty>
+		<weight-per-unit>245</weight-per-unit>
+		<ingredient storeid="acqua"><percent>0.4064</percent></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><percent>0.5445</percent></ingredient>
+		<ingredient storeid="lievito-madre"><percent>0.0362</percent></ingredient>
+		<ingredient storeid="sale"><percent>0.0129</percent></ingredient>
+	</recipe>
 	<recipe>
 		<id>pizza-napoletana</id>
 		<name>Pizza Napoletana</name>
@@ -156,6 +168,14 @@
 		<name>Lievito</name>
 		<description>Lievito fresco</description>
 		<unit>g</unit><digit>1</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>lievito-madre</id>
+		<image>images/lievito-molino-rossetto.jpg</image>
+		<name>Lievito madre</name>
+		<description>Lievito madre essiccato</description>
+		<unit>g</unit><digit>0</digit>
 		<note></note>
 	</product>
 	<product>
