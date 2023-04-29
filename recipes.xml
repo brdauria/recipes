@@ -37,10 +37,10 @@
 		<image>images/pizza-lievito-madre.jpg</image>
 		<standard-qty>4.5</standard-qty>
 		<weight-per-unit>245</weight-per-unit>
-		<ingredient storeid="acqua"><proportion>0.4064</proportion></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><proportion>0.5445</proportion></ingredient>
-		<ingredient storeid="lievito-madre"><proportion>0.0362</proportion></ingredient>
-		<ingredient storeid="sale"><proportion>0.0129</proportion></ingredient>
+		<ingredient storeid="acqua"><proportion>0.4245</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5143</proportion></ingredient>
+		<ingredient storeid="lievito-madre"><proportion>0.0490</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0122</proportion></ingredient>
 	</recipe>
 	<recipe>
 		<id>pizza-napoletana</id>
