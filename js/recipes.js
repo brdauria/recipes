@@ -131,9 +131,9 @@ function updateIngredients() {
         var cname = ingds.childNodes[i].className;
         if (cname && cname.indexOf("ingredient") !== -1) {
             ingname = ingds.childNodes[i].id;
-            perc = document.getElementById(ingname + "-perc");
+            proportion = document.getElementById(ingname + "-proportion");
             ingweight = document.getElementById(ingname + "-weight");
-            updatenumber(ingweight, weight.value * perc.value);
+            updatenumber(ingweight, weight.value * proportion.value);
         }
     }
 }

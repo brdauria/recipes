@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Edited by XMLSpy® -->
+<!-- Edited by XMLSpyï¿½ -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:param name="message"></xsl:param>
 
@@ -79,10 +79,10 @@
                         </input>
                     </xsl:otherwise>
                 </xsl:choose>
-                <input class="perc" type="hidden">
-                    <xsl:attribute name="id"><xsl:value-of select="$ingname"/>-perc</xsl:attribute>
+                <input class="proportion" type="hidden">
+                    <xsl:attribute name="id"><xsl:value-of select="$ingname"/>-proportion</xsl:attribute>
                     <xsl:attribute name="value">
-                        <xsl:value-of select="percent"/>
+                        <xsl:value-of select="proportion"/>
                     </xsl:attribute>
                 </input>
             </div>

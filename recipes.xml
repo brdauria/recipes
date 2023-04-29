@@ -11,11 +11,11 @@
 		<image>images/pizza.jpg</image>
 		<standard-qty>2</standard-qty>
 		<weight-per-unit>240</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0027</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0150</percent></ingredient>
-		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.3782</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5908</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.0027</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0150</proportion></ingredient>
+		<ingredient storeid="olio"><proportion>0.0125</proportion></ingredient>
 	</recipe>
 -->
 	<recipe>
@@ -25,10 +25,10 @@
 		<image>images/pizza.jpg</image>
 		<standard-qty>4.5</standard-qty>
 		<weight-per-unit>245</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.400</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.585</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.001</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0140</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.400</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.585</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.001</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0140</proportion></ingredient>
 	</recipe>
 		<recipe>
 		<id>pizza-con-lievito-madre</id>
@@ -37,10 +37,10 @@
 		<image>images/pizza-lievito-madre.jpg</image>
 		<standard-qty>4.5</standard-qty>
 		<weight-per-unit>245</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.4064</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.5445</percent></ingredient>
-		<ingredient storeid="lievito-madre"><percent>0.0362</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0129</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.4064</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5445</proportion></ingredient>
+		<ingredient storeid="lievito-madre"><proportion>0.0362</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0129</proportion></ingredient>
 	</recipe>
 	<recipe>
 		<id>pizza-napoletana</id>
@@ -49,10 +49,10 @@
 		<image>images/napolitan-pizza-maker.jpg</image>
 		<standard-qty>5.5</standard-qty>
 		<weight-per-unit>250</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.36350418</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.617957107</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.000363504</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.018175209</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.36350418</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.617957107</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.000363504</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.018175209</proportion></ingredient>
 	</recipe>
 	<recipe>
 		<id>pizza-in-teglia</id>
@@ -61,10 +61,10 @@
 		<image>images/pizza_in_teglia.jpg</image>
 		<standard-qty>1</standard-qty>
 		<weight-per-unit>700</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.4357142857</percent></ingredient><!--305g-->
-		<ingredient storeid="farina-caputo-rossa"><percent>0.5457142857</percent></ingredient><!--382g-->
-		<ingredient storeid="lievito-fresco"><percent>0.005</percent></ingredient><!--3.5g-->
-		<ingredient storeid="sale"><percent>0.01357142857</percent></ingredient><!--9.5g-->
+		<ingredient storeid="acqua"><proportion>0.4357142857</proportion></ingredient><!--305g-->
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5457142857</proportion></ingredient><!--382g-->
+		<ingredient storeid="lievito-fresco"><proportion>0.005</proportion></ingredient><!--3.5g-->
+		<ingredient storeid="sale"><proportion>0.01357142857</proportion></ingredient><!--9.5g-->
 	</recipe>
 	<recipe>
 		<id>pizza-integrale-in-teglia</id>
@@ -74,14 +74,14 @@
 		<standard-qty>1</standard-qty>
 		<weight-per-unit>700</weight-per-unit>
 		<!--biga-->
-		<ingredient storeid="farina-caputo-rossa"><percent>0.361663653</percent></ingredient><!--farina integrale (300W, 13-14gproteine)-->
-		<ingredient storeid="acqua"><percent>0.180831826</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.003616637</percent></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.361663653</proportion></ingredient><!--farina integrale (300W, 13-14gproteine)-->
+		<ingredient storeid="acqua"><proportion>0.180831826</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.003616637</proportion></ingredient>
 		<!--rinfresco-->
-		<ingredient storeid="farina-caputo-rossa"><percent>0.154998708</percent></ingredient><!--farina integrale (300W, 13-14gproteine)-->
-		<ingredient storeid="acqua"><percent>0.284164299</percent></ingredient>
-		<ingredient storeid="zucchero"><percent>0.001808318</percent></ingredient><!--malto d’orzo in polvere-->
-		<ingredient storeid="sale"><percent>0.012916559</percent></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.154998708</proportion></ingredient><!--farina integrale (300W, 13-14gproteine)-->
+		<ingredient storeid="acqua"><proportion>0.284164299</proportion></ingredient>
+		<ingredient storeid="zucchero"><proportion>0.001808318</proportion></ingredient><!--malto d’orzo in polvere-->
+		<ingredient storeid="sale"><proportion>0.012916559</proportion></ingredient>
 	</recipe>
 	<recipe>
 		<id>calzoni</id>
@@ -90,11 +90,11 @@
 		<image>images/calzone.jpg</image>
 		<standard-qty>6</standard-qty>
 		<weight-per-unit>80</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.3782</percent></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><percent>0.5908</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0036</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0167</percent></ingredient>
-		<ingredient storeid="olio"><percent>0.0125</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.3782</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5908</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.0036</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0167</proportion></ingredient>
+		<ingredient storeid="olio"><proportion>0.0125</proportion></ingredient>
 	</recipe>
 	<recipe>
 		<id>cornetti</id>
@@ -103,13 +103,13 @@
 		<image>images/cornetti.jpg</image>
 		<standard-qty>30</standard-qty>
 		<weight-per-unit>30.93</weight-per-unit>
-		<ingredient storeid="acqua"><percent>0.2963</percent></ingredient>
-		<ingredient storeid="farina-harimsa-fuerza"><percent>0.5388</percent></ingredient>
-		<ingredient storeid="burro"><percent>0.0269</percent></ingredient>
-		<ingredient storeid="lievito-fresco"><percent>0.0216</percent></ingredient>
-		<ingredient storeid="zucchero"><percent>0.06465</percent></ingredient>
-		<ingredient storeid="sale"><percent>0.0086</percent></ingredient>
-		<ingredient storeid="burro"><percent>0.3125</percent></ingredient>
+		<ingredient storeid="acqua"><proportion>0.2963</proportion></ingredient>
+		<ingredient storeid="farina-harimsa-fuerza"><proportion>0.5388</proportion></ingredient>
+		<ingredient storeid="burro"><proportion>0.0269</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.0216</proportion></ingredient>
+		<ingredient storeid="zucchero"><proportion>0.06465</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0086</proportion></ingredient>
+		<ingredient storeid="burro"><proportion>0.3125</proportion></ingredient>
 	</recipe>
 </recipes>
 <!-- Ingredients -->
