@@ -8,7 +8,7 @@
 		<id>pizza-64</id>
 		<name>Pizza</name>
 		<description>Pizza con farina Caputo - Con impastatrice</description>
-		<image>images/pizza.jpg</image>
+		<image>images/products/pizza.jpg</image>
 		<standard-qty>2</standard-qty>
 		<weight-per-unit>240</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.3782</proportion></ingredient>
@@ -22,19 +22,32 @@
 		<id>pizza-senza-olio</id>
 		<name>Pizza</name>
 		<description>Pizza con farina Caputo - Con impastatrice</description>
-		<image>images/pizza.jpg</image>
-		<standard-qty>4.5</standard-qty>
+		<image>images/products/pizza.jpg</image>
+		<standard-qty>2.5</standard-qty>
 		<weight-per-unit>245</weight-per-unit>
-		<ingredient storeid="acqua"><proportion>0.400</proportion></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><proportion>0.585</proportion></ingredient>
-		<ingredient storeid="lievito-fresco"><proportion>0.001</proportion></ingredient>
-		<ingredient storeid="sale"><proportion>0.0140</proportion></ingredient>
+		<ingredient storeid="acqua"><proportion>0.4118</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.5735</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.0010</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0137</proportion></ingredient>
 	</recipe>
-		<recipe>
+	<recipe>
+		<id>pizza-nera-integrale</id>
+		<name>Nera integrale</name>
+		<description>Pizza nera e integrale - Con impastatrice</description>
+		<image>images/products/pizza-nera-integrale.jpg</image>
+		<standard-qty>2.5</standard-qty>
+		<weight-per-unit>245</weight-per-unit>
+		<ingredient storeid="acqua"><proportion>0.4118</proportion></ingredient>
+		<ingredient storeid="farina-nera-granMugnaio"><proportion>0.2868</proportion></ingredient>
+		<ingredient storeid="farina-integrale-Spadoni"><proportion>0.2868</proportion></ingredient>
+		<ingredient storeid="lievito-fresco"><proportion>0.0010</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0136</proportion></ingredient>
+	</recipe>
+	<recipe>
 		<id>pizza-con-lievito-madre</id>
-		<name>Pizza lievito madre</name>
+		<name>Con lievito madre</name>
 		<description>Pizza lievito madre</description>
-		<image>images/pizza-lievito-madre.jpg</image>
+		<image>images/products/pizza-lievito-madre.jpg</image>
 		<standard-qty>4.5</standard-qty>
 		<weight-per-unit>245</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.4245</proportion></ingredient>
@@ -44,9 +57,9 @@
 	</recipe>
 	<recipe>
 		<id>pizza-napoletana</id>
-		<name>Pizza Napoletana</name>
+		<name>Napoletana DOC</name>
 		<description>Pizza corso Pizzaiolo per un giorno (Napoli)</description>
-		<image>images/napolitan-pizza-maker.jpg</image>
+		<image>images/products/napolitan-pizza-maker.jpg</image>
 		<standard-qty>5.5</standard-qty>
 		<weight-per-unit>250</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.36350418</proportion></ingredient>
@@ -57,8 +70,8 @@
 	<recipe>
 		<id>pizza-in-teglia</id>
 		<name>Pizza in teglia</name>
-		<description>Pizza in teglia con alta lievitazione</description>
-		<image>images/pizza_in_teglia.jpg</image>
+		<description>In teglia con alta lievitazione</description>
+		<image>images/products/pizza_in_teglia.jpg</image>
 		<standard-qty>1</standard-qty>
 		<weight-per-unit>700</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.4357142857</proportion></ingredient><!--305g-->
@@ -68,9 +81,9 @@
 	</recipe>
 	<recipe>
 		<id>pizza-integrale-in-teglia</id>
-		<name>Pizza integrale</name>
+		<name>Integrale</name>
 		<description>Pizza in teglia con alta lievitazione</description>
-		<image>images/pizza_integrale_in_teglia.jpg</image>
+		<image>images/products/pizza_integrale_in_teglia.jpg</image>
 		<standard-qty>1</standard-qty>
 		<weight-per-unit>700</weight-per-unit>
 		<!--biga-->
@@ -87,7 +100,7 @@
 		<id>calzoni</id>
 		<name>Calzoni</name>
 		<description>Calzoni fritti</description>
-		<image>images/calzone.jpg</image>
+		<image>images/products/calzone.jpg</image>
 		<standard-qty>6</standard-qty>
 		<weight-per-unit>80</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.3782</proportion></ingredient>
@@ -100,7 +113,7 @@
 		<id>cornetti</id>
 		<name>Cornetti</name>
 		<description>Cornetti al cioccolato</description>
-		<image>images/cornetti.jpg</image>
+		<image>images/products/cornetti.jpg</image>
 		<standard-qty>30</standard-qty>
 		<weight-per-unit>30.93</weight-per-unit>
 		<ingredient storeid="acqua"><proportion>0.2963</proportion></ingredient>
@@ -116,15 +129,31 @@
 <store>
 	<product>
 		<id>farina-caputo-rossa</id>
-		<image>images/caputo-rossa.jpg</image>
+		<image>images/flours/caputo-rossa.jpg</image>
 		<name>Farina</name>
 		<description>Farina Caputo</description>
 		<unit>g</unit><digit>0</digit>
 		<note></note>
 	</product>
 	<product>
+		<id>farina-nera-granMugnaio</id>
+		<image>images/flours/granMugnaio-farpizza-nera.jpg</image>
+		<name>Farina</name>
+		<description>Farina Pizza Nera Gran Mugnanio</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+		<product>
+		<id>farina-integrale-Spadoni</id>
+		<image>images/flours/spadoni-pane-nero-farro-e-grano-saraceno.jpg</image>
+		<name>Farina</name>
+		<description>Farina Integrale Spadoni</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
 		<id>farina-harimsa-fuerza</id>
-		<image>images/harimsa-fuerza.jpg</image>
+		<image>images/flours/harimsa-fuerza.jpg</image>
 		<name>Farina</name>
 		<description>Farina di forza</description>
 		<unit>g</unit><digit>0</digit>
@@ -132,7 +161,7 @@
 	</product>
 	<product>
 		<id>farina-harimsa-pizza</id>
-		<image>images/harimsa-pizza.jpg</image>
+		<image>images/flours/harimsa-pizza.jpg</image>
 		<name>Farina</name>
 		<description>Farina speciale per pizza</description>
 		<unit>g</unit><digit>0</digit>
@@ -140,7 +169,7 @@
 	</product>
 	<product>
 		<id>farina-gallo-trigo</id>
-		<image>images/gallo-trigo.jpg</image>
+		<image>images/flours/gallo-trigo.jpg</image>
 		<name>Farina</name>
 		<description>Farina Gallo</description>
 		<unit>g</unit><digit>0</digit>
@@ -148,7 +177,7 @@
 	</product>
 	<product>
 		<id>farina-gallo-reposteria</id>
-		<image>images/gallo-reposteria.jpg</image>
+		<image>images/flours/gallo-reposteria.jpg</image>
 		<name>Farina</name>
 		<description>Farina Gallo per reposteria</description>
 		<unit>g</unit><digit>0</digit>
@@ -156,7 +185,7 @@
 	</product>
 	<product>
 		<id>acqua</id>
-		<image>images/acqua.jpg</image>
+		<image>images/generic/acqua.jpg</image>
 		<name>Acqua</name>
 		<description>Acqua di rubinetto</description>
 		<unit>g</unit><digit>0</digit>
@@ -164,7 +193,7 @@
 	</product>
 	<product>
 		<id>lievito-fresco</id>
-		<image>images/lievito-levital.jpg</image>
+		<image>images/yeasts/lievito-levital.jpg</image>
 		<name>Lievito</name>
 		<description>Lievito fresco</description>
 		<unit>g</unit><digit>1</digit>
@@ -172,7 +201,7 @@
 	</product>
 	<product>
 		<id>lievito-madre</id>
-		<image>images/lievito-molino-rossetto.jpg</image>
+		<image>images/yeasts/lievito-molino-rossetto.jpg</image>
 		<name>Lievito madre</name>
 		<description>Lievito madre essiccato</description>
 		<unit>g</unit><digit>0</digit>
@@ -180,7 +209,7 @@
 	</product>
 	<product>
 		<id>sale</id>
-		<image>images/sale.jpg</image>
+		<image>images/generic/sale.jpg</image>
 		<name>Sale</name>
 		<description>Sale da cucina fino</description>
 		<unit>g</unit><digit>1</digit>
@@ -188,7 +217,7 @@
 	</product>
 	<product>
 		<id>olio</id>
-		<image>images/olio.jpg</image>
+		<image>images/generic/olio.jpg</image>
 		<name>Olio</name>
 		<description>Olio extravergine di oliva</description>
 		<unit>g</unit><digit>1</digit>
@@ -196,7 +225,7 @@
 	</product>
 	<product>
 		<id>zucchero</id>
-		<image>images/zucchero.jpg</image>
+		<image>images/generic/zucchero.jpg</image>
 		<name>Zucchero</name>
 		<description>Zucchero</description>
 		<unit>g</unit><digit>1</digit>
@@ -204,7 +233,7 @@
 	</product>
 	<product>
 		<id>burro</id>
-		<image>images/burro.jpg</image>
+		<image>images/generic/burro.jpg</image>
 		<name>Burro</name>
 		<description>Burro</description>
 		<unit>g</unit><digit>0</digit>
