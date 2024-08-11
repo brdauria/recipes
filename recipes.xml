@@ -135,6 +135,7 @@
 		<ingredient storeid="farina-garofalo-semola"><proportion>0.4636</proportion></ingredient>
 		<ingredient storeid="farina-caputo-rossa"><proportion>0.1987</proportion></ingredient>
 		<ingredient storeid="sale"><proportion>0.0066</proportion></ingredient>
+		<reference-url>https://www.tavolartegusto.it/ricetta/lagane-e-ceci-la-ricetta-originale/</reference-url>
 	</recipe>
 </recipes>
 <!-- Ingredients -->
