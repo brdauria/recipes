@@ -130,11 +130,11 @@
 		<description>Ricetta per le lagane e ceci</description>
 		<image>images/products/lagane-e-ceci.jpg</image>
 		<standard-qty>4</standard-qty>
-		<weight-per-unit>127</weight-per-unit>
-		<ingredient storeid="acqua-tiepida"><proportion>0.3287</proportion></ingredient>
-		<ingredient storeid="farina-garofalo-semola"><proportion>0.4606</proportion></ingredient>
-		<ingredient storeid="farina-caputo-rossa"><proportion>0.1969</proportion></ingredient>
-		<ingredient storeid="sale"><proportion>0.0138</proportion></ingredient>
+		<weight-per-unit>125</weight-per-unit>
+		<ingredient storeid="acqua-tiepida"><proportion>0.3311</proportion></ingredient>
+		<ingredient storeid="farina-garofalo-semola"><proportion>0.4636</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.1987</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.0066</proportion></ingredient>
 	</recipe>
 </recipes>
 <!-- Ingredients -->
