@@ -97,6 +97,19 @@
 		<ingredient storeid="sale"><proportion>0.012916559</proportion></ingredient>
 	</recipe>
 	<recipe>
+		<id>pinsa</id>
+		<name>Pinsa</name>
+		<description>Pinsa romana</description>
+		<image>images/products/pinsa.jpg</image>
+		<standard-qty>4</standard-qty>
+		<weight-per-unit>250</weight-per-unit>
+		<ingredient storeid="mix-per-pinsa"><proportion>0.550964187</proportion></ingredient><!--farina integrale (300W, 13-14gproteine)-->
+		<ingredient storeid="acqua-fredda"><proportion>0.424242424</proportion></ingredient>
+		<ingredient storeid="lievito-secco-pinsa"><proportion>0.002754821</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.011019284</proportion></ingredient>
+		<ingredient storeid="olio"><proportion>0.011019284</proportion></ingredient>
+	</recipe>
+	<recipe>
 		<id>calzoni</id>
 		<name>Calzoni</name>
 		<description>Calzoni fritti</description>
@@ -145,6 +158,14 @@
 		<image>images/flours/caputo-rossa.jpg</image>
 		<name>Farina</name>
 		<description>Farina Caputo</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>mix-per-pinsa</id>
+		<image>images/flours/mix-per-pinsa.jpg</image>
+		<name>Farina per pinsa</name>
+		<description>Mix di farine per pinsa</description>
 		<unit>g</unit><digit>0</digit>
 		<note></note>
 	</product>
@@ -241,6 +262,14 @@
 		<image>images/yeasts/lievito-molino-rossetto.jpg</image>
 		<name>Lievito madre</name>
 		<description>Lievito madre essiccato</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>lievito-secco-pinsa</id>
+		<image>images/yeasts/lievito-secco-pinsa.jpg</image>
+		<name>Lievito di birra secco</name>
+		<description>Lievito di birra secco ideale per pinsa</description>
 		<unit>g</unit><digit>0</digit>
 		<note></note>
 	</product>
