@@ -137,11 +137,11 @@
 		<ingredient storeid="sale"><proportion>0.0086</proportion></ingredient>
 		<ingredient storeid="burro"><proportion>0.3125</proportion></ingredient>
 	</recipe>
-		<recipe>
+	<recipe>
 		<id>lagane</id>
 		<name>Lagane</name>
-		<description>Ricetta per le lagane e ceci</description>
-		<image>images/products/lagane-e-ceci.jpg</image>
+		<description>Ricetta per le lagane</description>
+		<image>images/products/lagane.jpg</image>
 		<standard-qty>4</standard-qty>
 		<weight-per-unit>125</weight-per-unit>
 		<ingredient storeid="acqua-tiepida"><proportion>0.3311</proportion></ingredient>
@@ -149,6 +149,17 @@
 		<ingredient storeid="farina-caputo-rossa"><proportion>0.1987</proportion></ingredient>
 		<ingredient storeid="sale"><proportion>0.0066</proportion></ingredient>
 		<reference-url>https://www.tavolartegusto.it/ricetta/lagane-e-ceci-la-ricetta-originale/</reference-url>
+	</recipe>
+	<recipe>
+		<id>tagliatelle</id>
+		<name>Tagliatelle</name>
+		<description>Ricetta delle tagliatelle delle sorelle Simili</description>
+		<image>images/products/tagliatelle.jpg</image>
+		<standard-qty>4</standard-qty>
+		<weight-per-unit>123.75</weight-per-unit>
+		<ingredient storeid="uovo"><proportion>0.3334</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.6666</proportion></ingredient>
+		<reference-url>https://cindystarblog.blogspot.com/2008/05/la-sfoglia-col-matterello.html</reference-url>
 	</recipe>
 </recipes>
 <!-- Ingredients -->
@@ -303,6 +314,14 @@
 		<name>Burro</name>
 		<description>Burro</description>
 		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>uovo</id>
+		<image>images/generic/uovo.jpg</image>
+		<name>Uovo</name>
+		<description>Uovo intero</description>
+		<unit>g</unit><digit>1</digit>
 		<note></note>
 	</product>
 </store>
