@@ -215,7 +215,7 @@
 		<product>
 		<id>farina-garofalo-semola</id>
 		<image>images/flours/garofalo-semola.jpg</image>
-		<name>Farina</name>
+		<name>Semola</name>
 		<description>Semola di grano duro</description>
 		<unit>g</unit><digit>0</digit>
 		<note></note>
