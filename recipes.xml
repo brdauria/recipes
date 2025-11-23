@@ -161,6 +161,21 @@
 		<ingredient storeid="farina-caputo-rossa"><proportion>0.6666</proportion></ingredient>
 		<reference-url>https://cindystarblog.blogspot.com/2008/05/la-sfoglia-col-matterello.html</reference-url>
 	</recipe>
+	<recipe>
+		<id>gnocchi-di-patate</id>
+		<name>Gnocchi</name>
+		<description>Ricetta degli gnocchi di patate</description>
+		<image>images/products/gnocchi-di-patate.jpg</image>
+		<standard-qty>4</standard-qty>
+		<weight-per-unit>190</weight-per-unit>
+		<ingredient storeid="patate-vecchie-a-pasta-bianca"><proportion>0.789473684</proportion></ingredient>
+		<ingredient storeid="farina-caputo-rossa"><proportion>0.190789474</proportion></ingredient>
+		<ingredient storeid="uovo"><proportion>0.013157895</proportion></ingredient>
+		<ingredient storeid="sale"><proportion>0.006578947</proportion></ingredient>
+		<ingredient storeid="acqua-in-pentola-a-pressione"><proportion>0.282894737</proportion></ingredient>
+		<ingredient storeid="tempo-in-pentola-a-pressione"><proportion>0.015789474</proportion></ingredient>
+		<reference-url>https://www.tavolartegusto.it/ricetta/gnocchi-di-patate-ricetta-e-segreti-come-fare-gli-gnocchi/</reference-url>
+	</recipe>
 </recipes>
 <!-- Ingredients -->
 <store>
@@ -301,11 +316,35 @@
 		<note></note>
 	</product>
 	<product>
+		<id>patate-vecchie-a-pasta-bianca</id>
+		<image>images/generic/patate-vecchie-a-pasta-bianca.jpg</image>
+		<name>Patate</name>
+		<description>Patate vecchie in pasta bianca</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
 		<id>zucchero</id>
 		<image>images/generic/zucchero.jpg</image>
 		<name>Zucchero</name>
 		<description>Zucchero</description>
 		<unit>g</unit><digit>1</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>acqua-in-pentola-a-pressione</id>
+		<image>images/generic/acqua_pentola_a_pressione.jpg</image>
+		<name>Acqua</name>
+		<description>Acqua per la pentola a pressione</description>
+		<unit>g</unit><digit>0</digit>
+		<note></note>
+	</product>
+	<product>
+		<id>tempo-in-pentola-a-pressione</id>
+		<image>images/generic/timer_pentola_a_pressione.jpg</image>
+		<name>Tempo</name>
+		<description>Tempo in pentola a pressione</description>
+		<unit>min</unit><digit>0</digit>
 		<note></note>
 	</product>
 	<product>
